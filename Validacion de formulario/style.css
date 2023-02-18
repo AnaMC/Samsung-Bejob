@@ -1,0 +1,68 @@
+.wrapper{
+    background-color:#242933;
+    height: 100vh;   
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+.wrapper, h1{
+    color: #aebce3;
+}
+
+input{
+    width: 100%;
+    border-radius: 2px;
+    color:#808aaa;
+}
+
+#form{
+    flex-direction: column;
+    background-color:#2f3644; 
+    padding: 20px;  
+    border: 2px solid #40465e;
+    border-radius: 5px;
+    font-family: "Segoe IU", sans-serif;
+    width: 250px;
+}
+
+.cajaTexto{
+    border-color: transparent;
+    height: 25px;
+}
+label{
+    font-size: 12px;
+}
+
+.correcto{
+    border-color: green;
+    background-image: url(images/success-icon.svg);
+    background-repeat: no-repeat;   
+    background-position-y: center;   
+    background-position-x: right;         
+}
+
+.incorrecto{
+    border-color:  #db5a5a;
+    background-image: url(images/error-icon.svg);
+    background-repeat: no-repeat;   
+    background-position-y: center;   
+    background-position-x: right;   
+}
+
+.mensajeError{
+font-size: 11px;
+color: #db5a5a;
+}
+
+#enviar{
+    background-color: #6c63ff;
+    border: 2px solid #1e212b;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;  
+    border-radius: 5px;
+    padding: 5px;
+}
